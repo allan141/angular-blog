@@ -1,0 +1,26 @@
+.container__menu-bar > ul{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .container__menu-bar > ul > li{
+    margin-right: 20px;
+    list-style: none;
+  }
+
+  .header {
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+  }
