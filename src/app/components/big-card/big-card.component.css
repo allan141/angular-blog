@@ -24,11 +24,11 @@
   }
   
   .big-card__photo > img {
-    width: 100%;
+    width: 150%;
     height: auto;
+    
   }
   
-  /* 🔽 MEDIA QUERIES - colocadas FORA dos seletores principais */
   
   @media (min-width: 700px) {
     .container__big-card {
